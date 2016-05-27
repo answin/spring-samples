@@ -1,0 +1,8 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+group = 'org.answin'
+version = '0.1'
