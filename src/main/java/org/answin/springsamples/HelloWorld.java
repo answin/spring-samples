@@ -27,4 +27,14 @@ public class HelloWorld implements InitializingBean, DisposableBean {
 
         System.out.println("destroy by DisposableBean");
     }
+
+    public void xmlInit() {
+
+        System.out.println("xmlInit");
+    }
+
+    public void xmlDestroy() {
+
+        System.out.println("xmlDestroy");
+    }
 }
